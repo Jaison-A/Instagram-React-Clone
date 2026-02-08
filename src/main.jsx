@@ -4,6 +4,8 @@ import App from "./App.jsx";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import ViewStory from "./ViewStory.jsx";
 import Profile from "./Profile.jsx";
+import Home from "./Home.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
   {
     path: "*",

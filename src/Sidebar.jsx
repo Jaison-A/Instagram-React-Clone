@@ -11,8 +11,9 @@ function Sidebar() {
           src="src/assets/Instagram_logo_text.png"
           alt="instagramText"
         />
-        <div>
-          <i className="bi bi-house-door"></i>Home
+        <div onClick={() => navigate("/home")}>
+          <i className="bi bi-house-door"></i>
+          Home
         </div>
         <div>
           <i className="bi bi-search"></i>Search
